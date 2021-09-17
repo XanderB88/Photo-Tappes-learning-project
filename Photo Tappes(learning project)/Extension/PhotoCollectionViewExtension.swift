@@ -7,6 +7,9 @@
 
 import UIKit
 
+let itemsPerRow: CGFloat = 3
+let sectionInserts = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+
 extension PhotoCollectionViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
